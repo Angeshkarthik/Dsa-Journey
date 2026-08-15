@@ -24,7 +24,7 @@ The goal is not just to solve problems, but to understand the **patterns, approa
 | Topic | Easy | Medium | Hard |
 |---|---:|---:|---:|
 | Arrays | 0 | 0 | 0 |
-| Strings | 2 | 0 | 0 |
+| Strings | 4 | 0 | 0 |
 | Hashing | 0 | 0 | 0 |
 | Two Pointers | 0 | 0 | 0 |
 | Sliding Window | 0 | 0 | 0 |
@@ -39,55 +39,3 @@ The goal is not just to solve problems, but to understand the **patterns, approa
 
 ---
 
-## 🧠 Problems Solved
-
-### Strings
-
-- [x] Pangram — Frequency Array
-- [x] Anagram — Frequency Counting
-
----
-
-## 🛠️ Languages
-
-- C
-- Java
-
----
-
-## 📈 Progress
-
-**Day 2**
-
-This repository will continuously evolve as I learn new concepts, patterns, and interview problems.
-
-> Consistency over intensity.  
-> Understand the pattern. Solve the problem. Repeat.
-
----
-
-## 📂 Repository Structure
-
-```text
-Dsa-Journey/
-│
-├── Arrays/
-├── Strings/
-│   └── Easy/
-│       ├── Pangram.c
-│       └── Anagram.c
-│
-├── Hashing/
-├── Two-Pointers/
-├── Sliding-Window/
-├── Stack/
-├── Queue/
-├── Linked-List/
-├── Binary-Search/
-├── Trees/
-├── Graphs/
-├── Greedy/
-├── Dynamic-Programming/
-│
-├── .gitignore
-└── README.md
