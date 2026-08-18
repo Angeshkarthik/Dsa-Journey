@@ -24,7 +24,7 @@ The goal is not just to solve problems, but to understand the **patterns, approa
 | Topic | Easy | Medium | Hard |
 |---|---:|---:|---:|
 | Arrays | 0 | 0 | 0 |
-| Strings | 4 | 0 | 0 |
+| Strings | 7 | 0 | 0 |
 | Hashing | 0 | 0 | 0 |
 | Two Pointers | 0 | 0 | 0 |
 | Sliding Window | 0 | 0 | 0 |
