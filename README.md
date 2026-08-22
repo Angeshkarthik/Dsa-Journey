@@ -4,7 +4,7 @@
 
 This repository contains my solutions, notes, and progress as I prepare for software engineering placements.
 
-The goal is not just to solve problems, but to understand the **patterns, approaches, and problem-solving techniques** behind them.
+The goal is not just to solve problems, but to understand the **patterns, approaches, and problem-solving techniques  behind them.
 
 ---
 
