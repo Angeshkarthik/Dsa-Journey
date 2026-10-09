@@ -6,19 +6,20 @@ Maintain your LeetCode journey synced automatically using [LeetTrack Pro](https:
 
 | Metric | Details |
 | :--- | :--- |
-| **Total Solved** | 2 |
-| **Easy** | 1 (50%) |
-| **Medium** | 1 (50%) |
+| **Total Solved** | 3 |
+| **Easy** | 2 (67%) |
+| **Medium** | 1 (33%) |
 | **Hard** | 0 (0%) |
-| **Current Streak** | 🔥 1 days |
-| **Longest Streak** | 🏆 1 days |
+| **Current Streak** | 🔥 2 days |
+| **Longest Streak** | 🏆 2 days |
 
 ### Languages
 
-- **Java**: 2 problems
+- **Java**: 3 problems
 
 ### Recent Submissions
 
+- ✔ **[4135 - Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i)** (Easy) - *Solved in Java*
 - ✔ **[0070 - Climbing Stairs](https://leetcode.com/problems/climbing-stairs)** (Easy) - *Solved in Java*
 - ✔ **[0179 - Largest Number](https://leetcode.com/problems/largest-number)** (Medium) - *Solved in Java*
 
