@@ -6,9 +6,9 @@ Maintain your LeetCode journey synced automatically using [LeetTrack Pro](https:
 
 | Metric | Details |
 | :--- | :--- |
-| **Total Solved** | 5 |
-| **Easy** | 4 (80%) |
-| **Medium** | 1 (20%) |
+| **Total Solved** | 6 |
+| **Easy** | 5 (83%) |
+| **Medium** | 1 (17%) |
 | **Hard** | 0 (0%) |
 | **Current Streak** | 🔥 3 days |
 | **Longest Streak** | 🏆 3 days |
@@ -16,15 +16,15 @@ Maintain your LeetCode journey synced automatically using [LeetTrack Pro](https:
 ### Languages
 
 - **Java**: 3 problems
-- **MySQL**: 2 problems
+- **MySQL**: 3 problems
 
 ### Recent Submissions
 
 - ✔ **[0586 - Customer Placing the Largest Number of Orders](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders)** (Easy) - *Solved in MySQL*
 - ✔ **[0595 - Big Countries](https://leetcode.com/problems/big-countries)** (Easy) - *Solved in MySQL*
+- ✔ **[0182 - Duplicate Emails](https://leetcode.com/problems/duplicate-emails)** (Easy) - *Solved in MySQL*
 - ✔ **[4135 - Concatenate Non-Zero Digits and Multiply by Sum I](https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i)** (Easy) - *Solved in Java*
 - ✔ **[0070 - Climbing Stairs](https://leetcode.com/problems/climbing-stairs)** (Easy) - *Solved in Java*
-- ✔ **[0179 - Largest Number](https://leetcode.com/problems/largest-number)** (Medium) - *Solved in Java*
 
 
 *README updated automatically by LeetTrack Pro.*
