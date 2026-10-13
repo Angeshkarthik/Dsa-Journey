@@ -1,0 +1,81 @@
+/*
+ * Problem: 4078 - Maximum Alternating Sum of Squares
+ * Difficulty: Medium
+ * URL: https://leetcode.com/problems/maximum-alternating-sum-of-squares/
+ * 
+ * Description:
+ * You are given an integer array nums. You may rearrange the elements in any order.
+ * 
+ * The alternating score of an array arr is defined as:
+ * 
+ * 
+ * 	score = arr[0]2 - arr[1]2 + arr[2]2 - arr[3]2 + ...
+ * 
+ * 
+ * Return an integer denoting the maximum possible alternating score of nums after rearranging its elements.
+ * 
+ *  
+ * Example 1:
+ * 
+ * 
+ * Input: nums = [1,2,3]
+ * 
+ * Output: 12
+ * 
+ * Explanation:
+ * 
+ * A possible rearrangement for nums is [2,1,3], which gives the maximum alternating score among all possible rearrangements.
+ * 
+ * The alternating score is calculated as:
+ * 
+ * score = 22 - 12 + 32 = 4 - 1 + 9 = 12
+ * 
+ * 
+ * Example 2:
+ * 
+ * 
+ * Input: nums = [1,-1,2,-2,3,-3]
+ * 
+ * Output: 16
+ * 
+ * Explanation:
+ * 
+ * A possible rearrangement for nums is [-3,-1,-2,1,3,2], which gives the maximum alternating score among all possible rearrangements.
+ * 
+ * The alternating score is calculated as:
+ * 
+ * score = (-3)2 - (-1)2 + (-2)2 - (1)2 + (3)2 - (2)2 = 9 - 1 + 4 - 1 + 9 - 4 = 16
+ * 
+ * 
+ *  
+ * Constraints:
+ * 
+ * 
+ * 	1 <= nums.length <= 105
+ * 	-4 * 104 <= nums[i] <= 4 * 104
+ * 
+ * Sample Test Case:
+ *   [1,2,3]
+ */
+
+import java.util.Arrays;
+class Solution {
+    public long maxAlternatingSum(int[] nums) {
+        int n = nums.length;
+        long[] squared = new long[n];
+        for (int i = 0; i < n; i++) {
+            long val = nums[i];
+            squared[i] = val * val;
+        }
+        Arrays.sort(squared);
+        long maxScore = 0;
+        int mid = n / 2;
+        for (int i = 0; i < mid; i++) {
+            maxScore -= squared[i];
+        }
+        for (int i = mid; i < n; i++) {
+            maxScore += squared[i];
+        }
+        return maxScore;
+    }
+}
