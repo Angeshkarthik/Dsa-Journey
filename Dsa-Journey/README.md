@@ -6,16 +6,16 @@ Maintain your LeetCode journey synced automatically using [LeetTrack Pro](https:
 
 | Metric | Details |
 | :--- | :--- |
-| **Total Solved** | 29 |
-| **Easy** | 16 (55%) |
-| **Medium** | 12 (41%) |
+| **Total Solved** | 30 |
+| **Easy** | 17 (57%) |
+| **Medium** | 12 (40%) |
 | **Hard** | 1 (3%) |
 | **Current Streak** | 🔥 6 days |
 | **Longest Streak** | 🏆 6 days |
 
 ### Languages
 
-- **Java**: 23 problems
+- **Java**: 24 problems
 - **MySQL**: 3 problems
 - **Python**: 2 problems
 - **C**: 1 problems
