@@ -44,18 +44,22 @@
 
 class Solution {
     public boolean isPalindrome(String s) {
-        StringBuilder sb = new StringBuilder();
-        for(char ch:s.toCharArray()){
-            if(Character.isLetterOrDigit(ch)){
-                sb.append(Character.toLowerCase(ch));
+        char ch[] = s.toCharArray();
+        int left = 0;
+        int right = ch.length-1;
+        while(left<right){
+            while(left<right && !Character.isLetterOrDigit(ch[left])){
+                left++;
             }
+            while(left<right && !Character.isLetterOrDigit(ch[right])){
+                right--;
+            }
+            if(Character.toLowerCase(ch[left]) != Character.toLowerCase(ch[right])){
+                return false;
+            }
+            left++;
+            right--;
         }
-        StringBuilder rev = new StringBuilder(sb);
-        rev.reverse();
-        String s1 = sb.toString();
-        String s2 = rev.toString();
-       if(s2.equals(s1))
-            return true;
-        else return false;
+        return true;
     }
 }
