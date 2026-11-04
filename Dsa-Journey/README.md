@@ -6,8 +6,8 @@ Maintain your LeetCode journey synced automatically using [LeetTrack Pro](https:
 
 | Metric | Details |
 | :--- | :--- |
-| **Total Solved** | 39 |
-| **Easy** | 25 (64%) |
+| **Total Solved** | 40 |
+| **Easy** | 26 (65%) |
 | **Medium** | 13 (33%) |
 | **Hard** | 1 (3%) |
 | **Current Streak** | 🔥 2 days |
@@ -15,7 +15,7 @@ Maintain your LeetCode journey synced automatically using [LeetTrack Pro](https:
 
 ### Languages
 
-- **Java**: 33 problems
+- **Java**: 34 problems
 - **MySQL**: 3 problems
 - **Python**: 2 problems
 - **C**: 1 problems
@@ -24,9 +24,9 @@ Maintain your LeetCode journey synced automatically using [LeetTrack Pro](https:
 
 - ✔ **[1019 - Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array)** (Easy) - *Solved in Java*
 - ✔ **[0344 - Reverse String](https://leetcode.com/problems/reverse-string)** (Easy) - *Solved in Java*
+- ✔ **[0027 - Remove Element](https://leetcode.com/problems/remove-element)** (Easy) - *Solved in Java*
 - ✔ **[0890 - Lemonade Change](https://leetcode.com/problems/lemonade-change)** (Easy) - *Solved in Java*
 - ✔ **[0125 - Valid Palindrome](https://leetcode.com/problems/valid-palindrome)** (Easy) - *Solved in Java*
-- ✔ **[0167 - Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii---input-array-is-sorted)** (Medium) - *Solved in Java*
 
 
 *README updated automatically by LeetTrack Pro.*
