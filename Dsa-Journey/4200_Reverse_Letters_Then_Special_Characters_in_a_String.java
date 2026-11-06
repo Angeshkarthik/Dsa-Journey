@@ -79,46 +79,43 @@
 
 class Solution {
     public String reverseByType(String s) {
-        char ch[] = s.toCharArray();
+        char[] arr = s.toCharArray();
         int left = 0;
-        int right=ch.length-1;
-        while(left<right){
-            if(!Character.isLetter(ch[left])){
+        int right = arr.length - 1;
+        while (left < right) {
+            if (!Character.isLetter(arr[left])) {
                 left++;
             }
-            else if(!Character.isLetter(ch[right])){
+            else if (!Character.isLetter(arr[right])) {
                 right--;
             }
-            else{
-                char temp = ch[left];
-                ch[left] = ch[right];
-                ch[right] = temp;
+            else {
+                char temp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = temp;
+
                 left++;
                 right--;
             }
         }
         left = 0;
-        right=ch.length-1;
-        while(left<right){
-            if(Character.isLetter(ch[left]) 
-                 || Character.isDigit(ch[left]) 
-                 || Character.isWhitespace(ch[left])){
+        right = arr.length - 1;
+        while (left < right) {
+            if (Character.isLetter(arr[left])) {
                 left++;
             }
-            else if(Character.isLetter(ch[right]) 
-                 || Character.isDigit(ch[right]) 
-                 || Character.isWhitespace(ch[right])){
+            else if (Character.isLetter(arr[right])) {
                 right--;
             }
-            else{
-                char temp = ch[left];
-                ch[left] = ch[right];
-                ch[right] = temp;
+            else {
+                char temp = arr[left];
+                arr[left] = arr[right];
+                arr[right] = temp;
+
                 left++;
                 right--;
             }
         }
-        return new String(ch);
-
+        return new String(arr);
     }
 }
