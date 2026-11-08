@@ -10,7 +10,7 @@ Maintain your LeetCode journey synced automatically using [LeetTrack Pro](https:
 | **Easy** | 32 (68%) |
 | **Medium** | 14 (30%) |
 | **Hard** | 1 (2%) |
-| **Current Streak** | 🔥 5 days |
+| **Current Streak** | 🔥 1 days |
 | **Longest Streak** | 🏆 8 days |
 
 ### Languages
