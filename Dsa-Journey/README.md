@@ -22,9 +22,9 @@ Maintain your LeetCode journey synced automatically using [LeetTrack Pro](https:
 
 ### Recent Submissions
 
+- ✔ **[2886 - Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard)** (Easy) - *Solved in Java*
 - ✔ **[0890 - Lemonade Change](https://leetcode.com/problems/lemonade-change)** (Easy) - *Solved in Java*
 - ✔ **[0953 - Reverse Only Letters](https://leetcode.com/problems/reverse-only-letters)** (Easy) - *Solved in Java*
-- ✔ **[2886 - Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard)** (Easy) - *Solved in Java*
 - ✔ **[0680 - Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii)** (Easy) - *Solved in Java*
 - ✔ **[0392 - Is Subsequence](https://leetcode.com/problems/is-subsequence)** (Easy) - *Solved in Java*
 
