@@ -35,19 +35,14 @@
 
 class Solution {
     public boolean isSubsequence(String s, String t) {
-        int i=0,j=0;
-        char s1[] = s.toCharArray();
-        char s2[] = t.toCharArray();
-        while(i<s1.length && j<s2.length){
-            if(s1[i]==s2[j]){
-                i++;
-                j++;
-            }
-            else{
-                j++;
-            }
-            
-        }
-        return (i==s1.length)?true:false;
+        if(s.length() == 0) return true;
+        if(s.length() > t.length()) return false;
+        return f(s, 0 , t , 0);
+    }
+    private boolean f(String s , int i , String t , int j){
+        if(i == s.length()) return true;
+        if(j == t.length()) return false;
+        if(s.charAt(i) == t.charAt(j)) return f(s , i + 1 , t , j + 1);
+        return f(s , i , t , j + 1);
     }
 }
